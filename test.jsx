@@ -77,7 +77,7 @@ function App() {
       setLoading(false);
     }
   }
-  // [END product_offer-pre_purchase-react.sec_2-step_2_1]
+  // [END product_offer-pre_purchase-react.sec_2-step_1]
   
   /* [START product_offer-pre_purchase-react.sec_2-step_3_2] */
   async function handleAddToCart(variantId) {
