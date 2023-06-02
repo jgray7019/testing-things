@@ -18,7 +18,6 @@ import {
 
 // [START product_offer-pre_purchase-react.sec_2-step_1]
 render('Checkout::Dynamic::Render', () => <App />);
-// [END product_offer-pre_purchase-react.sec_2-step_1]
 
 function App() {
   const { query, i18n } = useExtensionApi();
@@ -42,7 +41,6 @@ function App() {
     }
   }, [showError]);
 
-  // [START product_offer-pre_purchase-react.sec_2-step_2_1]
   async function fetchProducts() {
     setLoading(true);
     try {
